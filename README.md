@@ -15,18 +15,3 @@ A abstração e a herança foram utilizadas na construção da hierarquia de col
 O encapsulamento protege informações sensíveis como dados pessoais e valores monetários, restringindo o acesso direto a atributos por meio de métodos de acesso e modificação devidamente controlados.
 
 O polimorfismo é empregado na rotina de cálculo salarial, permitindo que cada tipo de contrato sobrescreva a lógica de cálculo para aplicar suas próprias regras de adicionais e descontos sem alterar a interface comum do sistema.
-
-## Estrutura do Repositório
-
-```text
-FolhaDePagamento/
-├── src/
-│   ├── models/
-│   │   ├── Funcionario.java
-│   │   ├── FuncionarioCLT.java
-│   │   ├── FuncionarioPJ.java
-│   │   └── Holerite.java
-│   └── services/
-│       ├── CalculadoraImpostos.java
-│       └── FolhaPagamentoService.java
-└── README.md
